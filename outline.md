@@ -51,6 +51,10 @@ A team can only truly work together if they work on the same things. We try to w
 
 Writing code should be a collaborative process, pair programming, mob programming. We reduce the need for asynchronous Pull Requests and instead have the quickest possible feedback loop through writing code together.
 
+#### We balance data and intuition
+
+We work data-driven, but we also trust our intuition which is trained by practical experience and theoretical knowledge. Not everything we do can be based on numbers.
+
 #### Quality Assurance is an integral part of our work
 
 We do not hand over seemingly finished features to QA for testing. Instead, our QA Specialists work with us and help us to apply the right testing strategy before, during and after writing code.
@@ -88,8 +92,18 @@ The key to a consistent performance and a high degree of agility is breaking wor
 
 For an engineering culture like the one described in this guide to work, a couple of roles are necessary. 
 
+## Product Manager
+
+- Turns a problem into a solution together with the team 
+- Knows the "why" and develops the "what", leaving the "how" to the team
+
 ## Software Engineer
 
+- technical expert
+  - usually specialised, e.g. "Backend", "Frontend"
+- understands the "why" and the "what" to develop the "how"
+  - negotiates scope
+- not isolated from customers and stakeholders
 
 
 ## Engineering Manager
@@ -102,13 +116,22 @@ Taken from http://www.engineeringladders.com[^10]:
 
 > Most importantly of all, the team needs to feel fully and unconditionally supported by the Engineering Manager. They are their safety layer. They provide guidance when there is uncertainty, and protection when there is a threat. This may sound dramatic, but changing scopes and shifting deadlines are a genuine threat to morale and therefore the productiveness of the team. The Engineering Manager is the provider of context when there are changes and the voice of reason when there is debate.
 
-
 ## Tech Lead
 
 Taken from http://www.engineeringladders.com[^11]:
 
 > Role also known as dev lead, is the owner of the system and requires a unique balance between hands-on development, architecture knowledge and production support.
 
+## Stakeholder
+
+- Are able to represent the customer, so they can tell us if a solution is valuable for the customer
+- Are sometimes also the customer as they also raise problems they need a solution for
+
+## Customer
+
+- We talk to customers to understand their problems, which we derive the "why" from
+
+## Lead
 
 
 # Metrics
