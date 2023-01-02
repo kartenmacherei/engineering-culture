@@ -146,6 +146,20 @@ It is the job of the leadership team to build high-performing teams. In order to
 
 - number of defects in relation to X - tells us something about the quality of a team's work, which is important to keep them performing
 
+# Further Reading
+
+The books and articles listed here greatly influenced this guide. While not mandatory, reading them will help you a great deal understanding the reasoning behind many of its sections. Most of them are referenced in the footnotes. 
+
+- Kent Beck - Extreme Programming Explained
+- Ryan Singer - Shape Up
+- Marty Cagan - Empowered 
+- Daniel H. Pink - Drive
+- Richard Sheridan - Joy, Inc.
+- http://www.engineeringladders.com/
+- Robert C. Martin - Clean Architecture
+- 
+
+
 
 Footnotes:
 [^1]: https://dreadfullyposh.com/writing/sorry-but-you-cant-just-create-a-company-culture
