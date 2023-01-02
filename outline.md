@@ -16,46 +16,46 @@ We cannot simply "create" the engineering culture that we want[^1]. A culture ca
 
 Key statements that summarise how we want software engineering to work at celebrate. 
 
-#### We are truly agile
+## We are truly agile
 
 Despite its age, the Agile Manifesto still holds valuable principles that too often are being ignored when companies talk about "being agile". Applying Scrum or similar frameworks will not make us agile if we do not understand the key concepts[^8].
 
-#### We believe in empowered teams
+## We believe in empowered teams
 
 To take pride and joy in the things we finish, we need to be able to shape our work and have full transparency on its effects. We believe that Empowered Teams[^7] are the way to achieve exactly that. 
 
-#### We cut scope, not quality
+## We cut scope, not quality
 
 Our work happens in a triangle of quality, time and scope. We deliberately limit time and any cutback on quality will make our lives harder in the future. This leaves us with one variable: scope. We should always strive to find the smallest possible scope to meet the needs of our customers and ourselves. We do this constantly before and also while we work on something [^9]. 
 
-#### We follow industry standards, as long as we have not discovered something superior
+## We follow industry standards, as long as we have not discovered something that works better for us
 
-We base our tech stack and our processes on proven standards first. Only when we tried and understand them well enough, we should look for improvements or alternatives. 
+We base our tech stack and our processes on proven standards first. Only when we understand them well enough (which usually means applying and sticking to them for some time), we should look for improvements or alternatives. 
 
-#### We stick to our rules until we decide to change them
+## We stick to our rules until we decide to change them
 
 Principles and rules we come up with must be meaningful and justified. Breaking them is serious and can have consequences, however challenging the rules is encouraged if done for the right reasons. 
 
-#### We keep in touch with experts and other companies to foster knowledge exchange and keep ourselves up to date
+## We keep in touch with experts and other companies to foster knowledge exchange and keep ourselves up to date
 
-#### We take responsibility for our workload. 
+## We take responsibility for our workload. 
 
 If we see an opportunity to reduce maintenance work, we take it. We avoid unnecessary work to focus on the things we do best. 
 - example: SaaS > PaaS > self-hosted
 
-#### Teams work on topics sequentially
+## Teams work on topics sequentially
 
 A team can only truly work together if they work on the same things. We try to work on as little things in parallel as possible. The value of finishing a single thing is always greater than the value of having multiple things in progress at once (because the value of that is 0). 
 
-#### We work collaboratively 
+## We work collaboratively 
 
 Writing code should be a collaborative process, pair programming, mob programming. We reduce the need for asynchronous Pull Requests and instead have the quickest possible feedback loop through writing code together.
 
-#### We balance data and intuition
+## We balance data and intuition
 
 We work data-driven, but we also trust our intuition which is trained by practical experience and theoretical knowledge. Not everything we do can be based on numbers.
 
-#### Quality Assurance is an integral part of our work
+## Quality Assurance is an integral part of our work
 
 We do not hand over seemingly finished features to QA for testing. Instead, our QA Specialists work with us and help us to apply the right testing strategy before, during and after writing code.
 
@@ -87,6 +87,10 @@ This approach plays along nicely with atomic commits.
 ## Many Much More Smaller Steps
 
 The key to a consistent performance and a high degree of agility is breaking work down into the smallest meaningful (not necessarily valuable!) steps. The smaller the steps, the easier it will be to take them and the better we can react to changes. A step can be translated to a code change that meets all our standards, can go live and does not make the application worse[^4]. 
+
+## Extreme Programming
+
+Extreme Programming combines many of the principles mentioned in this section into a process. It showcases how close collaboration, test-driven development and constant exchange with customers lead to better (software) products. It may seem dated, but its fundamentals are still very valid [^12].
 
 # Roles
 
@@ -155,4 +159,5 @@ Footnotes:
 [^9]: https://basecamp.com/shapeup/1.2-chapter-03#fixed-time-variable-scope
 [^10]: http://www.engineeringladders.com/EngineeringManager.html
 [^11]: http://www.engineeringladders.com/TechLead.html
+[^12]: http://www.extremeprogramming.org/
 
