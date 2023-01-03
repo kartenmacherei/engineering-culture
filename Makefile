@@ -1,16 +1,16 @@
 .PHONY: serve
-serve: node_modules
-	npx honkit serve
+serve: build node_modules
+	npx honkit serve . ./build/website
 
 .PHONY: website
-website: node_modules
-	npx honkit build
+website: build node_modules
+	npx honkit build . ./build/website
 
 .PHONY: all
 all: website pdf epub mobi
 
 build:
-	mkdir -p build/
+	mkdir -p build/website
 
 node_modules: package.json package-lock.json
 	npm install
