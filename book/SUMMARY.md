@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 
 ### Core Principles
+
 * [Introduction](core-principles/README.md)
 * [True Agility](core-principles/true-agility.md)
 * [Empowered Teams](core-principles/empowered-teams.md)
