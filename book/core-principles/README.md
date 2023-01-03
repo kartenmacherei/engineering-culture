@@ -1,4 +1,3 @@
 # Core Principles
 
-Key statements that summarise how we want software engineering to work at celebrate.
-
+The principles laid out here guide us in our daily work as software engineers. They should tell us how we want to work and what matters most to us. 

@@ -10,6 +10,8 @@
 
 ## Culture can not be created
 
-We cannot simply "create" the engineering culture that we want[^1]. A culture can be fostered, but it is like its own living being that will constantly change and evolve. We can only guide its evolution into a desired direction.
+We cannot simply "create" the engineering culture that we want[^1]. A culture can be fostered, but it is like its own living being that will constantly change and evolve. We can only gently guide its evolution into a desired direction by being role models for others and holding ourselves accountable to our actions.
+
 
 [^1]: https://dreadfullyposh.com/writing/sorry-but-you-cant-just-create-a-company-culture
+
