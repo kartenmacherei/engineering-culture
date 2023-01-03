@@ -31,11 +31,11 @@ If we see an opportunity to reduce maintenance work, we take it. We avoid unnece
 
 ## Teams work on topics sequentially
 
-A team can only truly work together if they work on the same things. We try to work on as little things in parallel as possible. The value of finishing a single thing is always greater than the value of having multiple things in progress at once (because the value of that is 0).
+A team can only truly work together if they work on the same things We try to work on as little things in parallel as possible. The value of finishing a single thing is always greater than the value of having multiple things in progress at once (because the value of that is 0).
 
 ## We work collaboratively
 
-Writing code should be a collaborative process, pair programming, mob programming. We reduce the need for asynchronous Pull Requests and instead have the quickest possible feedback loop through writing code together.
+Writing code should be a collaborative process, pair programming, mob programming. We reduce the need for asynchronous Pull Requests and instead have the quickest possible feedback loop through writing code together. We apply Ship/Show/Ask[^10] in order to only use Pull Requests as a blocking gate for shipping something when necessary while still keeping code reviews as an integral part of sharing knowledge and receiving feedback.  
 
 ## We balance data and intuition
 
@@ -48,3 +48,4 @@ We do not hand over seemingly finished features to QA for testing. Instead, our 
 [^7]: https://www.svpg.com/books/empowered-ordinary-people-extraordinary-products/
 [^8]: https://holub.com/heuristics/
 [^9]: https://basecamp.com/shapeup/1.2-chapter-03#fixed-time-variable-scope
+[^10]: https://martinfowler.com/articles/ship-show-ask.html
