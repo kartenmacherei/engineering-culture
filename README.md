@@ -1,15 +1,17 @@
-# Introduction
+# Engineering Culture @ celebrate
 
-## Why this guide?
+This repo holds the source for our engineering culture guide that is available as a website and as an ebook.
 
-- the clearer we make where we want to be the easier it will be to get there
-- clear expectations
-    - helps with performance evaluation and growth paths
-- we can share this with anyone interested in working with us - do our values match?
-    - we have a culture fit, but not an engineering culture fit
+[HonKit](https://github.com/honkit/honkit) is used to generate the various formats. 
 
-## Culture can not be created
+## Working on content
 
-We cannot simply "create" the engineering culture that we want[^1]. A culture can be fostered, but it is like its own living being that will constantly change and evolve. We can only guide its evolvement into a desired direction. 
+All content is written in Markdown. If you want to make changes to the book's structure, edit SUMMARY.md, following the
+documentation of HonKit. 
 
-[^1]: https://dreadfullyposh.com/writing/sorry-but-you-cant-just-create-a-company-culture
+If you want to build the PDF locally, you will need [Calibre](https://calibre-ebook.com/).
+
+## Releasing a new version of the book
+
+- add tag
+- GitHub Action will create the files and add them to the release
