@@ -1,13 +1,13 @@
-name: deploy
+name: release
 
 on:
   push:
-    branches:
-      - main
+    tags:
+      - "v*"
 
 jobs:
-  pre-release:
-    name: "Latest"
+  release:
+    name: "Create Release"
     runs-on: "ubuntu-latest"
     steps:
       - uses: actions/checkout@v2
@@ -20,13 +20,6 @@ jobs:
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "latest"
-          prerelease: true
-          title: "Latest Build"
+          prerelease: false
           files: |
             build/engineering-culture-at-celebrate.*
-      - name: Deploy website
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build/website
