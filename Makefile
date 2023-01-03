@@ -1,16 +1,19 @@
 serve:
 	npx honkit serve
 
-build:
+website:
 	npx honkit build
 
-all: build pdf epub mobi
+all: website pdf epub mobi
 
-pdf:
-	npx honkit pdf ./ ./engineering-culture-at-celebrate.pdf
+build:
+	mkdir -p build/
 
-epub:
-	npx honkit epub ./ ./engineering-culture-at-celebrate.epub
+pdf: build
+	npx honkit pdf ./ ./build/engineering-culture-at-celebrate.pdf
 
-mobi:
-	npx honkit epub ./ ./engineering-culture-at-celebrate.mobi
+epub: build
+	npx honkit epub ./ ./build/engineering-culture-at-celebrate.epub
+
+mobi: build
+	npx honkit epub ./ ./build/engineering-culture-at-celebrate.mobi
