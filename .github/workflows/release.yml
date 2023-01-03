@@ -16,8 +16,6 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 14
-      - name: Install Calibre
-        run: sudo apt-get install calibre
       - name: Build website & ebook
         run: make all
       - uses: "marvinpinto/action-automatic-releases@latest"
