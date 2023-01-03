@@ -44,6 +44,7 @@ jobs:
     name: "Tag Pre-Release"
     runs-on: "ubuntu-latest"
     needs: create-ci-image
+    if: ${{ always() }}
     container: "ghcr.io/${{ github.repository }}/ci:latest"
     steps:
       - uses: actions/checkout@v3
