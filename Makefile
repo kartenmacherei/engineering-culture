@@ -1,3 +1,6 @@
+ci-image:
+	docker build -t engineering-culture-ci ./docker/
+
 .PHONY: serve
 serve: build node_modules
 	npx honkit serve . ./build/website

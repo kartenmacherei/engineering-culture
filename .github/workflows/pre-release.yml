@@ -1,4 +1,4 @@
-name: deploy
+name: pre-release
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   pre-release:
-    name: "Latest"
+    name: "Create Pre-Release"
     runs-on: "ubuntu-latest"
     steps:
       - uses: actions/checkout@v2
@@ -24,7 +24,7 @@ jobs:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "latest"
           prerelease: true
-          title: "Latest Build"
+          title: "Latest Pre-Release"
           files: |
             build/engineering-culture-at-celebrate.*
       - name: Deploy website
