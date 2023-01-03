@@ -37,6 +37,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 14
+          cache: 'npm'
       - name: Build website & ebook
         run: make all
       - uses: "marvinpinto/action-automatic-releases@latest"
