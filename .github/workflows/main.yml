@@ -6,9 +6,23 @@ on:
       - main
 
 jobs:
+  check-for-ci-image-changes:
+    runs-on: ubuntu-latest
+    outputs:
+      need-to-build-image: ${{ steps.filter.outputs.dockerfile-changed }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: dorny/paths-filter@v2
+        id: filter
+        with:
+          filters: |
+            dockerfile-changed:
+              - 'docker/Dockerfile'
   create-ci-image:
     name: "Create CI Image"
     runs-on: "ubuntu-latest"
+    needs: check-for-ci-image-changes
+    if: needs.check-for-ci-image-changes.outputs.need-to-build-image == 'true'
     steps:
       - uses: actions/checkout@v3
       - name: Login to image repository
