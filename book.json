@@ -3,6 +3,8 @@
   "author": "Sebastian Heuer",
   "root": "book",
   "pdf": {
-    "paperSize": "a5"
+    "fontFamily": "PT Serif",
+    "paperSize": "a5",
+    "embedFonts": true
   }
 }

@@ -1,0 +1,3 @@
+## Trunk-Based Development
+
+This technique encourages (or rather enforces) making many small (we'll call them "atomic" later) commits towards the main branch of a repository instead of working in long-living (i.e. more than a day) feature branches. Since many features can potentially take a larger number of those commits until they are ready for the customer, we need to work with feature branches (also covered later). It also requires us to have a fast and robust integration process, as otherwise we would risk having (and eventually shipping) broken code in the main branch. On the plus side we avoid "merge hell" when trying to integrate large feature branches.
