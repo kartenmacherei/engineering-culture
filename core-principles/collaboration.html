@@ -533,10 +533,26 @@
                                 <section class="normal markdown-section">
                                 
                                 <h2 id="we-work-collaboratively">We work collaboratively</h2>
-<p>Writing code should be a collaborative process, pair programming, mob programming. We reduce the need for asynchronous Pull Requests and instead have the quickest possible feedback loop through writing code together. We apply Ship/Show/Ask<sup><a href="#fn_1" id="reffn_1">1</a></sup> in order to only use Pull Requests as a blocking gate for shipping something when necessary while still keeping code reviews as an integral part of sharing knowledge and receiving feedback.  </p>
-<p>Working together on a task should be the default.</p>
+<p>Writing code should be a collaborative process by default, otherwise we would not need teams. Pair programming and mob programming are not only encouraged but expected to be practiced. There can be good (also personal) reasons to work on a task alone, but it should not be the default.  </p>
+<p>Solving problems and writing code in groups not only increases confidence in the solutions created but also lead to overall better performance and enjoyment<sup><a href="#fn_1" id="reffn_1">1</a></sup>. </p>
+<p>We reduce the need for asynchronous Pull Requests and instead have the quickest possible feedback loop through writing code together. We apply Ship/Show/Ask<sup><a href="#fn_2" id="reffn_2">2</a></sup> in order to only use Pull Requests as a blocking gate for shipping something when necessary while still keeping code reviews as an integral part of sharing knowledge and receiving feedback.  </p>
+<h3 id="ship--show--ask">Ship / Show / Ask</h3>
+<p>Visualisations taken from Martin Fowler&apos;s blog post.<sup><a href="#fn_2" id="reffn_2">2</a></sup></p>
+<h4 id="ship">Ship</h4>
+<p>No Pull Request, simply push to the main branch. 
+<img src="assets/ship.png" alt="simply push to main"></p>
+<h4 id="show">Show</h4>
+<p>Open a Pull Request, but merge already after the build passes. Others can still review your changes and give feedback, but you are not blocked. 
+<img src="assets/show.png" alt="open a non-blocking pull request"></p>
+<h4 id="ask">Ask</h4>
+<p>Open a Pull Request and wait for feedback and approval before merging. 
+<img src="assets/ask.png" alt="open a blocking pull request">
+Working together on a task should be the default.</p>
 <blockquote id="fn_1">
-<sup>1</sup>. <a href="https://martinfowler.com/articles/ship-show-ask.html" target="_blank">https://martinfowler.com/articles/ship-show-ask.html</a><a href="#reffn_1" title="Jump back to footnote [1] in the text."> ↩</a>
+<sup>1</sup>. John T. Nosek, <a href="https://www.researchgate.net/publication/27295641_The_Case_for_Collaborative_Programming" target="_blank"><em>The Case for Collaborative Programming</em></a>, Communications of the ACM, March 1998<a href="#reffn_1" title="Jump back to footnote [1] in the text."> ↩</a>
+</blockquote>
+<blockquote id="fn_2">
+<sup>2</sup>. <a href="https://martinfowler.com/articles/ship-show-ask.html" target="_blank">https://martinfowler.com/articles/ship-show-ask.html</a><a href="#reffn_2" title="Jump back to footnote [2] in the text."> ↩</a>
 </blockquote>
 
                                 
@@ -581,7 +597,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Collaboration First","level":"2.10","depth":1,"next":{"title":"Balancing Data and Intuition","level":"2.11","depth":1,"path":"core-principles/data-vs-intuition.md","ref":"core-principles/data-vs-intuition.md","articles":[]},"previous":{"title":"Sequential Work","level":"2.9","depth":1,"path":"core-principles/sequential-work.md","ref":"core-principles/sequential-work.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"book","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Sebastian Heuer","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"PT Serif","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":true},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Engineering Culture @ celebrate","gitbook":"*"},"file":{"path":"core-principles/collaboration.md","mtime":"2023-01-03T14:36:40.560Z","type":"markdown"},"gitbook":{"version":"4.0.4","time":"2023-01-03T14:36:47.782Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Collaboration First","level":"2.10","depth":1,"next":{"title":"Balancing Data and Intuition","level":"2.11","depth":1,"path":"core-principles/data-vs-intuition.md","ref":"core-principles/data-vs-intuition.md","articles":[]},"previous":{"title":"Sequential Work","level":"2.9","depth":1,"path":"core-principles/sequential-work.md","ref":"core-principles/sequential-work.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"book","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Sebastian Heuer","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"PT Serif","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":true},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Engineering Culture @ celebrate","gitbook":"*"},"file":{"path":"core-principles/collaboration.md","mtime":"2023-01-03T18:29:17.974Z","type":"markdown"},"gitbook":{"version":"4.0.4","time":"2023-01-03T18:29:24.353Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
