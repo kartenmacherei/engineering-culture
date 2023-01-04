@@ -14,5 +14,5 @@ In an ever-changing environment like ours, it is crucial to adapt to new circums
 
 This holds true for our engineering culture as well. Tolerating behavior that is clearly in violation of the way we want to work and treat each other will inevitably damage our culture and ultimately the joy of working at celebrate.  
 
-[^1]: Barry O'Reilly, _Unlearn: Let Go of Past Success to Achieve Extraordinary Results_, O'Reilly, 2018, 11
+[^1]: Barry O'Reilly, [_Unlearn: Let Go of Past Success to Achieve Extraordinary Results_](https://www.oreilly.com/library/view/unlearn-let-go/9781260143027/), O'Reilly, 2018, 11
 [^2]: https://blog.culturewise.com/the-culture-of-any-organization-is-shaped-by-the-worst-behavior-the-leader-is-willing-to-tolerate
