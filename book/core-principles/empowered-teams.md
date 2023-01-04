@@ -1,4 +1,4 @@
-## We believe in empowered teams
+## We build Empowered Teams
 
 To take pride and joy in the things we finish, we need to be able to shape our work and have full transparency on its effects. We believe that Empowered Product Teams as described by Marty Cagan are the way to achieve exactly that.
 
