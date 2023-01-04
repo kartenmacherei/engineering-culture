@@ -36,9 +36,9 @@
 * [Customer](roles/customer.md)
 * [Stakeholder](roles/stakeholder.md)
 
-### Metrics
+### Measuring Success
 
-* [Metrics](metrics/README.md)
+* [Introduction](metrics/README.md)
 
 ----
 
