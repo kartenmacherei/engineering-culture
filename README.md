@@ -1,6 +1,6 @@
 # Engineering Culture @ celebrate
 
-This repo holds the source for our engineering culture guide that is available as a website and as an ebook.
+This repo holds the source for our engineering culture guide that is available [as a website](https://sebastianheuer.github.io/engineering-culture/) and [as an ebook](https://github.com/sebastianheuer/engineering-culture/releases/latest).
 
 [HonKit](https://github.com/honkit/honkit) is used to generate the various formats. 
 
