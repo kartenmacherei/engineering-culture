@@ -10,7 +10,7 @@ Barry O'Reilly coined the term "Hypothesis-Driven Development", in which every f
 
 > As the software development industry continues to mature, we now have an opportunity to leverage improved capabilities such as Continuous Design and Delivery to maximize our potential to learn quickly what works and what does not. By taking an experimental approach to information discovery, we can more rapidly test our solutions against the problems we have identified in the products or services we are attempting to build.[^1]
 
-This method can bridge the gap between our intuition and the need for dependable data. We phrase our hypothesis (which can be cased on intuition) and do the change that will give us the data to verify it. That change can be a fake-door test, a customer survey or the minimum viable version of a new feature - whichever we need to learn from the data if we were right - and if we were, we can further invest into the feature.   
+This method can bridge the gap between our intuition and the need for dependable data. We phrase our hypothesis (which can be based on intuition) and do the change that will give us the data to verify it. That change can be a fake-door test, a customer survey or the minimum viable version of a new feature - whichever we need to learn from the data if we were right - and if we were, we can further invest into the feature.   
 
 ![hypothesis-driven-development.png](assets/hypothesis-driven-development.png)
 

@@ -6,7 +6,7 @@
 
 ## Why we need this guide
 
-As a company, we believe in the superiority of autonomous, purpose-driven teams that can take their own decisions, but we also know that we are on a never-ending quest to live up to our ideals. The better we understand what those ideals are and why we strive for them, the easier it will be to get there. 
+As a company, we believe in the superiority of autonomous, purpose-driven teams. <Core Values describe the framework that helps us to foster a culture that makes autonomy possible>. Working on software products in autonomous teams has certain requirements, and one of those is a culture of collaboration, trust and accountability. We know that we are on a never-ending quest to live up to our ideals. The better we understand what those ideals are and why we strive for them, the easier it will be to get there. 
 
 This guide should give you a pretty clear picture of how we want to work at celebrate - no matter if you have worked at celebrate for several years already, have recently joined or are interested in joining us. After reading, you should be able to answer the following question: 
 
@@ -16,9 +16,9 @@ If the answer is "yes", you can rely on the support of the whole company with yo
 
 The principles presented in this guide can also be helpful for finding your professional growth path at celebrate. Together with your lead, you can identify areas that you would like to focus on, and you can rest assured that there will be plenty of opportunities to increase your knowledge and develop your practical skills as a Software Engineer.
 
-## Culture can not be created
+## Culture cannot be created
 
-We cannot simply "create" the engineering culture that we want[^1]. A culture can be fostered, but it is like a living being that will constantly change and evolve. We can only gently guide its evolution into a desired direction by being role models for others and holding ourselves accountable to our actions.
+We cannot simply "create" the engineering culture that we want[^1]. A culture can be fostered, but it is like a living being that will constantly change and evolve. We can only gently guide its evolution into a desired direction by being role models for others and holding ourselves accountable for our actions.
 
 [^1]: https://dreadfullyposh.com/writing/sorry-but-you-cant-just-create-a-company-culture
 

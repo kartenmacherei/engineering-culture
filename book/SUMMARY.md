@@ -26,20 +26,6 @@
 * [Many Much More Smaller Steps](technical-foundation/many-much-more-smaller-steps.md)
 * [Extreme Programming](technical-foundation/extreme-programming.md)
 
-### Roles
-
-* [Introduction](roles/README.md)
-* [Software Engineer](roles/software-engineer.md)
-* [Product Manager](roles/product-manager.md)
-* [Engineering Manager](roles/engineering-manager.md)
-* [Tech Lead](roles/tech-lead.md)
-* [Customer](roles/customer.md)
-* [Stakeholder](roles/stakeholder.md)
-
-### Measuring Success
-
-* [Introduction](metrics/README.md)
-
 ----
 
 * [Further Reading](closing/README.md)
