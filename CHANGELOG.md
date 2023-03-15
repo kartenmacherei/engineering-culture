@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.0
+
+### Core Principles
+
+- extended quality assurance principle
+
 ## 0.2.0 
 
 ### General
