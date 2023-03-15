@@ -9,7 +9,7 @@ We aspire to be among the best, but while the software we build can be complex a
 Applying proven solutions and leveraging well-tested and mature tools allows us to focus on building the right solutions for our customers instead of inventing processes and building custom tools for solved problems. 
 
 Examples
-- Coding standards (no need to roll our own)
+- Coding standards (no need to maintain our own)
 - Using libraries and components instead of writing from scratch
 - a Team introduces Shape Up "by the book", but over time learns what works for them and what doesn't. Shape Up is just a snapshot of how 37 signals worked at a certain point in time. They iterated on the concept for years before that and certainly have iterated further on it after the book was released. We basically create a fork of Shape Up and do our own iterative changes from then on.
 - Deciding to use a SaaS product instead of a self-hosted solution when there is no strong need for running a part of our platform ourselves
