@@ -9,7 +9,7 @@ Test-driven development has been practiced for way longer than you might think. 
 >
 > -- <cite>https://localheinz.com/articles/2018/02/01/test-coverage-is-a-meaningless-metric/</cite>
  
-And as with every rule, there can be exceptions. Event Kent Beck himself does not follow those rules every single time:
+And as with every rule, there can be exceptions. Even Kent Beck himself does not follow those rules every single time:
 
 > I get paid for code that works, not for tests, so my philosophy is to test as little as possible to reach a given level of confidence (I suspect this level of confidence is high compared to industry standards, but that could just be hubris). If I don't typically make a kind of mistake (like setting the wrong variables in a constructor), I don't test for it. I do tend to make sense of test errors, so I'm extra careful when I have logic with complicated conditionals. When coding on a team, I modify my strategy to carefully test code that we, collectively, tend to get wrong.
 > 
