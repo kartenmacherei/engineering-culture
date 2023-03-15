@@ -6,7 +6,7 @@
 
 ## Why we need this guide
 
-As a company, we believe in the superiority of autonomous, purpose-driven teams. <Core Values describe the framework that helps us to foster a culture that makes autonomy possible>. Working on software products in autonomous teams has certain requirements, and one of those is a culture of collaboration, trust and accountability. We know that we are on a never-ending quest to live up to our ideals. The better we understand what those ideals are and why we strive for them, the easier it will be to get there. 
+As a company, we believe in the superiority of autonomous, purpose-driven teams. Working on software products in autonomous teams has certain requirements, and one of those is a culture of collaboration, trust and accountability. We know that we are on a never-ending quest to live up to our ideals. The better we understand what those ideals are and why we strive for them, the easier it will be to get there. 
 
 This guide should give you a pretty clear picture of how we want to work at celebrate - no matter if you have worked at celebrate for several years already, have recently joined or are interested in joining us. After reading, you should be able to answer the following question: 
 
