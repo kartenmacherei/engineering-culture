@@ -1,4 +1,4 @@
-# Introduction
+# Foreword
 
 > Like corporate culture, engineering culture is a shared set of behaviors, attitudes, values, and practices of engineers. They impact how your engineers act, make decisions, and how they feel.
 >
