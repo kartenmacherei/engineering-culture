@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.0.0
+ 
+### General
+
+- renamed Introduction to Foreword
+
+### Core Principles
+
+- moved Ship/Show/Ask from Collaboration principle to Technical Foundation chapter
+- rephrased Data vs. Intuition principle
+- extended Empowered Teams principle
+- tweaked Industry Standards principle
+- removed placeholder text from Variable Scope principle
+- rewrote Workload principle
+
 ## 0.3.0
 
 ### Core Principles
