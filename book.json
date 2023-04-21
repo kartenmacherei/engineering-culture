@@ -1,7 +1,6 @@
 {
   "title": "Engineering Culture @ celebrate",
   "author": "Sebastian Heuer",
-  "root": "book",
   "pdf": {
     "fontFamily": "PT Serif",
     "paperSize": "a5",
