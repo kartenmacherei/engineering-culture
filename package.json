@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sebastianheuer/engineering-culture.git"
+    "url": "git+https://github.com/kartenmacherei/engineering-culture.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sebastianheuer/engineering-culture/issues"
+    "url": "https://github.com/kartenmacherei/engineering-culture/issues"
   },
-  "homepage": "https://github.com/sebastianheuer/engineering-culture#readme",
+  "homepage": "https://github.com/kartenmacherei/engineering-culture#readme",
   "devDependencies": {
     "honkit": "^4.0.4"
   }
