@@ -3,7 +3,7 @@
 <html lang="" >
     <head>
         <meta charset="UTF-8">
-        <title>Test-Driven Development · Engineering Culture @ celebrate</title>
+        <title>Many More Much Smaller Steps · Engineering Culture @ celebrate</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="HonKit 4.0.7">
@@ -56,10 +56,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="many-more-much-smaller-steps.html" />
+    <link rel="next" href="extreme-programming.html" />
     
     
-    <link rel="prev" href="trunk-based-development.html" />
+    <link rel="prev" href="test-driven-development.html" />
     
 
     </head>
@@ -310,7 +310,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="3.4" data-path="test-driven-development.html">
+        <li class="chapter " data-level="3.4" data-path="test-driven-development.html">
             
                 <a href="test-driven-development.html">
             
@@ -323,7 +323,7 @@
             
         </li>
     
-        <li class="chapter " data-level="3.5" data-path="many-more-much-smaller-steps.html">
+        <li class="chapter active" data-level="3.5" data-path="many-more-much-smaller-steps.html">
             
                 <a href="many-more-much-smaller-steps.html">
             
@@ -399,7 +399,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Test-Driven Development</a>
+        <a href=".." >Many More Much Smaller Steps</a>
     </h1>
 </div>
 
@@ -414,24 +414,11 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="test-driven-development-tdd">Test-Driven Development (TDD)</h2>
-<p>Test-driven development has been practiced for way longer than you might think. The code for the Apollo 11 mission was developed in this way, so it&apos;s been around since the 60s (find source). TDD forces us to think about what we want to do before writing code - that sounds simple, but it actually is a very brutal change for many software developers (I intentionally did not write &quot;engineer&quot; here), as many will rather write code as part of their thought process. This can lead to suboptimal solutions. TDD has very simple rules to follow:</p>
-<blockquote>
-<ol>
-<li>You are not allowed to write any production code unless it is to make a failing unit test pass.</li>
-<li>You are not allowed to write any more of a unit test than is sufficient to fail; and compilation failures are failures.</li>
-<li>You are not allowed to write any more production code than is sufficient to pass the one failing unit test.</li>
-</ol>
-<p>-- <cite><a href="https://localheinz.com/articles/2018/02/01/test-coverage-is-a-meaningless-metric/" target="_blank">https://localheinz.com/articles/2018/02/01/test-coverage-is-a-meaningless-metric/</a></cite></p>
+                                <h2 id="many-more-much-smaller-steps">Many More Much Smaller Steps</h2>
+<p>The key to a consistent performance and a high degree of agility is breaking work down into the smallest meaningful (not necessarily valuable!) steps. The smaller the steps, the easier it will be to take them and the better we can react to changes. A step can be translated to a code change that meets all our standards, can go live and does not make the application worse<sup><a href="#fn_1" id="reffn_1">1</a></sup>.</p>
+<blockquote id="fn_1">
+<sup>1</sup>. <a href="https://www.geepawhill.org/2021/09/29/many-more-much-smaller-steps-first-sketch/" target="_blank">https://www.geepawhill.org/2021/09/29/many-more-much-smaller-steps-first-sketch/</a><a href="#reffn_1" title="Jump back to footnote [1] in the text."> ↩</a>
 </blockquote>
-<p>And as with every rule, there can be exceptions. Even Kent Beck himself does not follow those rules every single time:</p>
-<blockquote>
-<p>I get paid for code that works, not for tests, so my philosophy is to test as little as possible to reach a given level of confidence (I suspect this level of confidence is high compared to industry standards, but that could just be hubris). If I don&apos;t typically make a kind of mistake (like setting the wrong variables in a constructor), I don&apos;t test for it. I do tend to make sense of test errors, so I&apos;m extra careful when I have logic with complicated conditionals. When coding on a team, I modify my strategy to carefully test code that we, collectively, tend to get wrong.</p>
-<p>Different people will have different testing strategies based on this philosophy, but that seems reasonable to me given the immature state of understanding of how tests can best fit into the inner loop of coding. Ten or twenty years from now we&apos;ll likely have a more universal theory of which tests to write, which tests not to write, and how to tell the difference. In the meantime, experimentation seems in order.</p>
-<p>-- <cite><a href="https://stackoverflow.com/questions/153234/how-deep-are-your-unit-tests/153565#153565" target="_blank">https://stackoverflow.com/questions/153234/how-deep-are-your-unit-tests/153565#153565</a></cite></p>
-</blockquote>
-<p>The key benefit of TDD is putting the thought process before writing actual code and that along holds a lot of value.</p>
-<p>This approach plays along nicely with trunk-based development.</p>
 
                                 
                                 </section>
@@ -459,12 +446,12 @@
 
             
                 
-                <a href="trunk-based-development.html" class="navigation navigation-prev " aria-label="Previous page: Trunk-Based Development">
+                <a href="test-driven-development.html" class="navigation navigation-prev " aria-label="Previous page: Test-Driven Development">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="many-more-much-smaller-steps.html" class="navigation navigation-next " aria-label="Next page: Many More Much Smaller Steps">
+                <a href="extreme-programming.html" class="navigation navigation-next " aria-label="Next page: Extreme Programming">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -475,7 +462,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Test-Driven Development","level":"3.4","depth":1,"next":{"title":"Many More Much Smaller Steps","level":"3.5","depth":1,"path":"technical-foundation/many-more-much-smaller-steps.md","ref":"technical-foundation/many-more-much-smaller-steps.md","articles":[]},"previous":{"title":"Trunk-Based Development","level":"3.3","depth":1,"path":"technical-foundation/trunk-based-development.md","ref":"technical-foundation/trunk-based-development.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"book","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Sebastian Heuer","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"PT Serif","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":true},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Engineering Culture @ celebrate","gitbook":"*"},"file":{"path":"technical-foundation/test-driven-development.md","mtime":"2023-04-27T11:55:26.139Z","type":"markdown"},"gitbook":{"version":"4.0.7","time":"2023-04-27T11:55:37.154Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Many More Much Smaller Steps","level":"3.5","depth":1,"next":{"title":"Extreme Programming","level":"3.6","depth":1,"path":"technical-foundation/extreme-programming.md","ref":"technical-foundation/extreme-programming.md","articles":[]},"previous":{"title":"Test-Driven Development","level":"3.4","depth":1,"path":"technical-foundation/test-driven-development.md","ref":"technical-foundation/test-driven-development.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"book","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Sebastian Heuer","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"PT Serif","paperSize":"a5","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":true},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Engineering Culture @ celebrate","gitbook":"*"},"file":{"path":"technical-foundation/many-more-much-smaller-steps.md","mtime":"2023-04-27T11:55:26.139Z","type":"markdown"},"gitbook":{"version":"4.0.7","time":"2023-04-27T11:55:37.154Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
