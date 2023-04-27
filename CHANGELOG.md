@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1
+
+### Technical Foundation
+
+- fixed typo in headline
+
 ## 1.0.0
  
 ### General
