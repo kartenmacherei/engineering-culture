@@ -23,7 +23,7 @@
 * [Clean Architecture](technical-foundation/clean-architecture.md)
 * [Trunk-Based Development](technical-foundation/trunk-based-development.md)
 * [Test-Driven Development](technical-foundation/test-driven-development.md)
-* [Many Much More Smaller Steps](technical-foundation/many-much-more-smaller-steps.md)
+* [Many More Much Smaller Steps](technical-foundation/many-much-more-smaller-steps.md)
 * [Extreme Programming](technical-foundation/extreme-programming.md)
 
 ----
