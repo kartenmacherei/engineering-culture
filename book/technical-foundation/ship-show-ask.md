@@ -2,7 +2,7 @@
 
 Ship / Shop / Ask provides some guidelines to decide when it is actually necessary to wait for approvals on a Pull Request, when it is sufficient to open a Pull Request purely for informational purposes and when we can directly push changes into the main branch.
 
-Visualisations taken from Martin Fowler's blog post.[^2]
+Visualisations taken from Martin Fowler's blog post.[^1]
 
 ### Ship
 
