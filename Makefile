@@ -17,6 +17,7 @@ build:
 
 node_modules: package.json package-lock.json
 	npm install
+	@touch node_modules
 
 .PHONY: pdf
 pdf: build node_modules
