@@ -25,6 +25,7 @@
 * [Test-Driven Development](technical-foundation/test-driven-development.md)
 * [Many More Much Smaller Steps](technical-foundation/many-more-much-smaller-steps.md)
 * [Extreme Programming](technical-foundation/extreme-programming.md)
+* [Ship / Show / Ask](technical-foundation/ship-show-ask.md)
 
 ----
 

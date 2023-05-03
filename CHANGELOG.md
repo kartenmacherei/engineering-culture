@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.0
+
+### Technical Foundation
+
+- add missing Ship/Show/Ask page  
+
 ## 1.0.1
 
 ### Technical Foundation
