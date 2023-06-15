@@ -6,5 +6,7 @@ We do not want to foster a culture where people compete and optimize for a speci
 
 ## Finding the right metrics
 
-- number of defects in relation to X - tells us something about the quality of a team's work, which is important to keep them performing
-
+Source material:
+- https://newsletter.pragmaticengineer.com/p/engineering-productivity
+- https://newsletter.pragmaticengineer.com/p/uber-eng-productivity
+- https://newsletter.pragmaticengineer.com/p/linkedin-engineering-efficiency
