@@ -1,0 +1,19 @@
+.book-summary ul.summary li.title h2 {
+    padding: 10px 15px 0 15px;
+    margin: 0;
+}
+
+.book.color-theme-1 .book-summary ul.summary li.header {
+    color: #afa790;
+}
+
+.book.color-theme-2 .book-summary ul.summary li.header {
+    color: #c1c6d7;
+}
+
+.book-summary ul.summary li.header {
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    text-transform: none;
+}
