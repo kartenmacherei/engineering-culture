@@ -1,6 +1,13 @@
-.book-summary ul.summary li.title h2 {
-    padding: 10px 15px 0 15px;
+.book-summary .title {
+    margin: 15px 0;
+}
+.book-summary .title h2 {
+    padding: 10px 15px;
     margin: 0;
+}
+
+.book-summary .title small {
+    padding: 10px 15px;
 }
 
 .book.color-theme-1 .book-summary ul.summary li.header {

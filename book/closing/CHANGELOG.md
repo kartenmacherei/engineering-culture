@@ -1,5 +1,11 @@
 ## Changelog
 
+### 1.1.2
+
+#### General
+
+- moved title and version information above search bar
+
 ### 1.1.1
 
 #### General
