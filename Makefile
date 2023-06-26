@@ -1,3 +1,4 @@
+.PHONY: ci-image
 ci-image:
 	docker build -t engineering-culture-ci ./docker/
 
@@ -12,6 +13,7 @@ website: build node_modules
 .PHONY: all
 all: website pdf epub mobi
 
+.PHONY: build
 build:
 	mkdir -p build/website
 
