@@ -1,5 +1,11 @@
 ## Changelog
 
+### 1.1.1
+
+#### General
+
+- added title and version information to website
+
 ### 1.1.0
 
 #### Technical Foundation
