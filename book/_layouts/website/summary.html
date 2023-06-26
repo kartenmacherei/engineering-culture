@@ -31,7 +31,7 @@
     <li class="title">
         <div>
             <h2>Engineering Culture at celebrate company</h2>
-            <small><a href="/closing/CHANGELOG.html#{{ config.version }}" target="_blank">Version {{ config.version }}</a></small>
+            <small><a href="{{ ["closing/CHANGELOG.html#", config.version] | join | resolveFile }}">Version {{ config.version }}</a></small>
         </div>
     </li>
     <li class="divider"></li>
