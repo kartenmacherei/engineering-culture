@@ -27,7 +27,8 @@
 * [Extreme Programming](technical-foundation/extreme-programming.md)
 * [Ship / Show / Ask](technical-foundation/ship-show-ask.md)
 
-----
+### Appendix
 
 * [Further Reading](closing/README.md)
+* [Changelog](closing/CHANGELOG.md)
 
